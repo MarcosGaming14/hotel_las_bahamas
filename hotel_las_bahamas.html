@@ -1,0 +1,369 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hotel Las Bahamas — Portafolio de Servicios</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <meta name="description" content="Hotel Las Bahamas — Donde el cuerpo y el alma descansan.">
+  <link rel="shortcut icon" href="Imgs/logo-pestaña-removebg-preview-removebg-preview.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fonts.css">
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+        <div class="log">
+          <img class="logo" src="Imgs/logo-removebg-preview-removebg-preview.png" alt="logo" >
+          
+    </div>
+        <nav class="nav2" id="nav-desplegable">
+            <ul>
+              <li class="li-nav"><a class="nav-a" href="#about">Quiénes somos</a></li>
+              <li class="li-nav"><a class="nav-a" href="#mision">Misión</a></li>
+              <li class="li-nav"><a class="nav-a" href="#vision">Visión</a></li>
+              <li class="li-nav"><a class="nav-a" href="#objetivos">Objetivos</a></li>
+              <li class="li-nav"><a class="nav-a" href="#gallery">Galería</a></li>
+              <li class="li-nav"><a class="nav-a" href="#contact" class="cta">Contacto</a></li>
+              <li class="li-nav"><a class="nav-a" href="#" id="btn-certificaciones">Certificaciones</a></li>
+              <li class="li-nav"><a class="nav-a" href="#" id="btn-pro">Proveedores</a></li>
+            </ul>
+        </nav>
+        
+      </nav>
+      <img id="menu" src="imgs/menu-icon.svg" alt="" class="menu-hamburger">
+    </div>
+  </header>
+
+  <!-- Modal de Certificaciones -->
+<div id="modal-certificaciones" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+     <h2>Certificaciones Clave para Hoteles en Zonas Costeras</h2>
+    <p>Estas certificaciones garantizan que un hotel frente al mar opere con alta calidad y responsabilidad ambiental, aspectos cruciales en entornos sensibles.</p>
+    <ul class="cert-list">
+       <li><strong>1. Bandera Azul (Blue Flag):</strong> Reconocimiento de excelencia de la playa, calidad del agua, seguridad y gestión ambiental.</li>
+      <li><strong>2. ISO 9001:</strong> Sistema de Gestión de la Calidad, servicio consistente y eficiente.</li>
+      <li><strong>3. ISO 13009:</strong> Gestión de la Calidad en Playas, accesibilidad y seguridad óptimas.</li>
+      <li><strong>4. ISO 14001:</strong> Sistema de Gestión Ambiental, control de recursos y protección del ecosistema marino.</li>
+      <li><strong>5. ISO 21401:</strong> Gestión de Sostenibilidad en Alojamiento Turístico, responsable con entorno social, ambiental y económico.</li>
+    </ul>
+  </div>
+</div>
+
+ <!-- Modal de Certificaciones -->
+<div id="modal-proveedores" class="modal-pro">
+  <div class="content">
+    <span class="close-pro">&times;</span>
+    <h2>Proveedores del Hotel Las Bahamas</h2>
+    <ul class="pro-list">
+      <li><strong>1. EcoLuxe Amenities S.A.S:</strong> Proveedor de artículos de tocador ecológicos y biodegradables, diseñados especialmente para hoteles boutique que priorizan la sostenibilidad.</li>
+      <li><strong>2. Café Serranía Alta:</strong> Distribuidor local de café orgánico 100% colombiano, seleccionado para ofrecer una experiencia gourmet en desayunos y habitaciones.</li>
+      <li><strong>3. Bahía Textiles & Decor:</strong> Empresa especializada en ropa de cama, cortinas y cojines artesanales de alta calidad, con diseños inspirados en el Caribe.</li>
+      <li><strong>4. AquaPura Solutions:</strong> Encargada del suministro y mantenimiento de sistemas de filtrado y purificación de agua potable para todas las instalaciones del hotel.</li>
+      <li><strong>5. LuzMarina Flores y Eventos:</strong> Proveedora de arreglos florales naturales y decoración para eventos privados, bodas y cenas especiales dentro del hotel.</li>
+      <li><strong>6. TechNet Hospitality:</strong> Empresa dedicada al mantenimiento de la red Wi-Fi, televisores inteligentes y sistemas de sonido ambiental en las habitaciones.</li>}
+      <li><strong>7. GreenClean Laundry Services:</strong> Servicio de lavandería ecológica con productos hipoalergénicos y procesos sostenibles, exclusivo para hoteles boutique.</li>
+      <li><strong>8. Sabores del Trópico:</strong> Suministrador de frutas exóticas frescas, jugos naturales y productos locales para el restaurante del hotel.</li>
+    </ul>
+  </div>
+</div>
+  <section class="hero" aria-label="Portada">
+    <div class="bg" role="img" aria-label="Playa y hotel"
+     style="background-image:url('imgs/Hotel-imagen-principal.jpg');"></div>
+
+    <div class="overlay">
+      <div class="hero-card">
+        <h1>Hotel las bahamas</h1>
+         <h3 class="h2-primary">"Donde el cuerpo y el alma descansan."</h3>
+        <div class="actions">
+          <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})"><p>Reservar / Contactar</p></button>
+          <button class="btn-outline" onclick="openGallery()">Ver galería</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+   
+        <article id="about" class="quienSoy">
+          <h3>Quiénes somos</h3>
+          <p>Decidimos crear el Hotel Las Bahamas al ver la necesidad de contar con un lugar que ofreciera comodidad, confianza y un servicio de calidad a los viajeros que visitan nuestro municipio. La idea nació gracias a un programa de formación del Sena articulado con la media del colegio, que nos brindó inspiración y nos hizo notar que muchos turistas y visitantes buscaban no solo un lugar donde hospedarse, sino también conocer nuevos horizontes y culturas.</p>
+          <div class="img-qs">
+            <img src="Imgs/img1.webp" alt="" class="img1">
+            <div>
+                <img src="Imgs/img2.jpg" alt="" class="img2">
+                <img src="Imgs/img3.jpg" alt="" class="img3">
+            </div>
+          </div>
+        </article>
+
+      <section class="section2">
+        <article id="mision" class="card">
+          <h3>Misión</h3>
+          <p>En Hotel Las Bahamas trabajamos para ofrecer a cada huésped una experiencia de hospedaje cómoda, segura y acogedora. Nuestro objetivo es brindar un servicio de calidad que combine atención personalizada, calidez y un ambiente que haga sentir a todos como en casa. Nos comprometemos a mantener nuestras instalaciones en óptimas condiciones y a mejorar cada día para superar las expectativas de quienes nos visitan.</p>
+        </article>
+
+        <article id="vision" class="card">
+          <h3>Visión</h3>
+          <p>Queremos que desde este momento hasta un plazo aproximado de 5 años el Hotel Las Bahamas sea reconocido como uno de los principales referentes de alojamiento en la región, distinguido por su hospitalidad, su ambiente familiar y su servicio confiable.</p>
+        </article>
+      </section>
+  </main>
+
+        <article id="objetivos" class="card-objetivo">
+          <div class="oG">
+              <div class="dimamyc-objetivo">
+                    <h3>Objetivo General</h3>
+                    <p>Nuestro objetivo general es brindar a todos nuestros huéspedes un servicio de hospedaje que combine comodidad, seguridad y atención personalizada, creando un ambiente agradable donde puedan descansar y sentirse como en casa. Nuestro propósito es que el Hotel Las Bahamas se mantenga como una opción confiable y preferida, creciendo cada día gracias a la calidad de nuestro trabajo y al compromiso de ofrecer siempre una experiencia que supere las expectativas de quienes nos visitan.</p>
+                    <div class="linea1"></div>
+                    <div class="linea2"></div>
+              </div>
+                    <div class="animacionO">
+                        <div class="forma"></div>
+                    </div>
+          </div>
+        
+
+          <div class="card-Oe">
+                <h4>Objetivos específicos</h4>
+                <ul class="muted">
+                      <li>Promover prácticas sostenibles dentro del hotel, como el ahorro de agua y energía, para contribuir a la protección del entorno natural de la región.</li>
+                      <li>Fortalecer la calidad del servicio hotelero, capacitando al personal en hospitalidad y atención al cliente.</li>
+                      <li>Incorporar expresiones culturales y artísticas locales en las instalaciones del hotel, para ofrecer a los huéspedes una experiencia auténtica.</li>
+                      <li>Generar oportunidades de desarrollo para las comunidades cercanas, contratando proveedores locales y creando paquetes turísticos conjuntos.</li>
+                </ul>
+          </div>
+        </article>
+      
+        <div class="card-ubication">
+          <div class="mapa">
+              <h4>Ubicación</h4>
+              <p>Inicialmente comenzamos, y contamos con un hotel que se encuentra ubicado en Dibulla, la Guajira (Colombia). Carrera 5 calle 6 #45.</p>
+                <iframe width="100%" height="100%" frameborder="0" style="border:0"
+                  src="https://www.google.com/maps?q=Carrera+5+calle+6+%2345+Dibulla+La+Guajira+Colombia&output=embed" allowfullscreen></iframe>
+            
+          </div>
+          <div class="div2">
+              <p>Te invitamos a contactarnos para conocer mejor nuestra ubicación y nuestros sitios de hospedaje</p>
+              <div class="whatsapp-div">
+                  <a href="" class="a"><img src="imgs/instagram.png" alt="" class="whatsapp-icon"></a>
+                  <a href=""><p>@lasbahamas </p></a>
+              </div>
+              <div class="instagram-div">
+                  <a href="" class="a"><img src="imgs/icon-whatsapp.png" alt="" class="instagram-icon"></a>
+                  <a href=""><p class="p">+57 3145214615</p></a>
+              </div>
+          </div>
+        </div>
+
+
+  <!-- Slider -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <img src="Imgs/img3.jpg" alt="Habitación">
+        <div class="slide-text">
+          Habitaciones de lujo
+          <br>
+          <a href="#habitaciones" class="slide-btn">Ver más</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <img src="Imgs/recepción.jpg" alt="Recepción">
+        <div class="slide-text">
+          Recepción 24/7
+          <br>
+          <a href="#contacto" class="slide-btn">Contáctanos</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <img src="imgs/R.jpg" alt="Vista al mar">
+        <div class="slide-text">
+          Vista al mar increíble
+          <br>
+          <a href="#galeria" class="slide-btn">Explorar</a>
+        </div>
+      </div>
+
+ <div class="swiper-slide">
+        <img src="imgs/piscina.jpg" alt="Vista al mar">
+        <div class="slide-text">
+          Piscina grande
+          <br>
+          <a href="#galeria" class="slide-btn">Ver Galería</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="card-servicios">
+        <h4>Servicio de alojamiento</h4>
+        <div>
+            <img src="Imgs/img1.webp" alt="" class="img-services">
+            <button></button>
+          </div>
+        <div>
+            <img src="Imgs/img2.jpg" alt="" class="img-services">
+            <button></button>
+        </div>
+        <div>
+            <img src="Imgs/img3.jpg" alt="" class="img-services">
+            <button></button>
+        </div>
+      </div>
+
+    <!-- Paginación (puntos) -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+  <section class="product-and-services">
+    <h2 class="services-h2">Servicios</h2>
+    <p class="services-p">En el Hotel Las Bahamas nos esforzamos por ofrecerte una experiencia completa y confortable. Contamos con una variedad de servicios diseñados para garantizar tu bienestar y satisfacción durante tu estadía, desde cómodas habitaciones y conexión Wi-Fi de alta velocidad hasta atención personalizada y espacios pensados para tu descanso.</p>
+    <div class="div-services1">
+      <div class="div1-service">
+        <h3 class="h3-services">Alojamiento</h3>
+        <img src="imgs/clear-service.png" alt="" class="img-small-service">
+      </div>
+      <div class="div2-service">
+        <h4 class="h4-sub" href="">Reservar</h4>
+      </div>
+    </div>
+    <div class="div-services2">
+
+      <div class="div1-service">
+        <h3 class="h3-services">Restaurante</h3>
+        <img src="imgs/resturant-service.png" alt="" class="img-small-service">
+      </div>
+      <div class="div2-service">
+        <h4 class="h4-sub">Reservar</h4>
+      </div>
+    </div>
+
+    <div class="div-services3">
+      <div class="div1-service">
+        <h3 class="h3-services">Conexión WIFI</h3>
+        <img src="Imgs/wifi-service.png" alt="" class="img-small-service">
+      </div>
+      <div class="div2-service">
+        <h4 class="h4-sub">Reservar</h4>
+      </div>
+    </div>
+
+    <div class="div-services4">
+      <div class="div1-service">
+        <h3 class="h3-services">Lavandería</h3>
+        <img src="imgs/lavanderia-service.png" alt="" class="img-small-service">
+      </div>
+      <div class="div2-service">
+        <h4 class="h4-sub">Reservar</h4>
+      </div>
+    </div>
+
+    <div class="div-services5">
+      <div class="div1-service">
+        <h3 class="h3-services">Gimnasio</h3>
+        <img src="imgs/gym-service.png" alt="" class="img-small-service">
+      </div>
+      <div class="div2-service">
+        <h4 class="h4-sub">Reservar</h4>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Contactar-->
+
+          <aside>
+            <div class="card contact" id="contact">
+              <h3>Contacto y reservas</h3>
+              <p class="muted">Dirección: Carrera 5 calle 6 #45, Dibulla, La Guajira (Colombia)</p>
+              <form id="contactForm" onsubmit="sendContact(event)">
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <input type="text" id="subject" placeholder="Asunto" required>
+                <textarea id="message" placeholder="Escribe tu mensaje o solicitud" required></textarea>
+                <button type="submit" class="btn-primary">Enviar mensaje</button>
+              </form>
+              <div style="margin-top:12px">
+                <strong>Correo:</strong> <a href="mailto:hotellasbahamas@gmail.com">hotellasbahamas@gmail.com</a><br>
+                <strong>Sitio:</strong> <a href="https://hotellasbahamas.com" target="_blank">hotellasbahamas.com</a>
+              </div>
+            </div>
+          </aside>
+
+          <!--Sección de clientes-->
+
+          <section class="section-client">
+            <div>
+              <h2>Algunos de nuestros clientes</h2>
+              <p>Clientes que han confiado en nuestros servicios. Contactos disponibles para referencias bajo solicitud.</p>
+            </div>
+            <h3 class="h3-client">Empresa</h3>
+            
+            <div class="content-client">
+              <span>Turis Caribe S.A.S</span>
+              <span>Andrea Martínez</span>
+              <span  class="span-raya">Tiempo: 2 años</span>
+              <span  class="span-raya">Calle 10 #23-45, Santa Marta</span>
+              <span>Agencia ViajArte</span>
+              <span>Luis F. Ríos</span>
+              <span  class="span-raya">Tiempo: 1 año y 11 meses</span>
+              <span  class="span-raya">Carrera 8 #15-27, Barranquilla</span>
+              <span>Ocean Blue Producciones</span>
+              <span>Mariana Pardo</span>
+              <span class="span-raya">Tiempo: 3 años</span>
+              <span class="span-raya">Av. Primera #5-60, Riohacha</span>
+            </div>
+
+            <h3 class="h3-client-2">Clientes individuales</h3>
+            <div class="content-client">
+             
+              <span>Carlos Mejía</span>
+              <span>Cliente frecuente</span>
+              <span  class="span-raya">Tiempo: 3 años</span>
+              <span class="span-raya">Calle 5 #9-12, Medelin</span>
+              <span>Valería Gómez</span>
+              <span>Cliente honorable</span>
+              <span  class="span-raya">Tiempo: 6 años</span>
+              <span class="span-raya">Carrera 21 #6-45, Cartagena</span>
+              <span>Samuel Rodríguez</span>
+              <span>Cliente nuevo</span>
+              <span class="span-raya">Tiempo: 6 meses</span>
+              <span class="span-raya">Calle 8 #12-22, Valledupar</span>
+            </div>
+          </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="foot-inner">
+      <div>
+        <strong>Hotel Las Bahamas</strong>
+        <div class="muted">Carrera 5 calle 6 #45 · Dibulla, La Guajira</div>
+      </div>
+      <div style="text-align:right">
+        <div class="muted">Correo: <a href="mailto:hotellasbahamas@gmail.com">hotellasbahamas@gmail.com</a></div>
+        <div style="margin-top:6px">© <span id="year"></span> Hotel Las Bahamas</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón de WhatsApp flotante -->
+  <a class="whatsapp" href="https://wa.me/573145214615" target="_blank" title="Escríbenos por WhatsApp">
+    <img idth="56" height="56" viewBox="0 0 24 24" src="imgs/icon-whatsapp.png" alt="">
+  </a>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
