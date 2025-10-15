@@ -711,7 +711,7 @@ h3:nth-child(4){
     }
 
     .div-services1{
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-limpieza.jpg");
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-limpieza.jpg");
        background-size:cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -722,7 +722,7 @@ h3:nth-child(4){
      .div-services2{
       width:300px;
       height:490px;
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-of-restaurant.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-of-restaurant.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position:bottom center;
@@ -730,7 +730,7 @@ h3:nth-child(4){
     }
 
      .div-services3{
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-wifi.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-wifi.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position:right center;
@@ -738,7 +738,7 @@ h3:nth-child(4){
     }
 
      .div-services4{
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-lavanderia.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-lavanderia.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position:left center;
@@ -747,7 +747,7 @@ h3:nth-child(4){
     }
 
      .div-services5{
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-gym.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-gym.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position: center;
