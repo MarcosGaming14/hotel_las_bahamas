@@ -658,11 +658,6 @@ h3:nth-child(4){
       }
     }
 
-
-    .card-servicios{
-      width:max;
-    }
-
     /*SERVICIOS*/
 
     .services-h2{
@@ -672,6 +667,7 @@ h3:nth-child(4){
 
     .services-p{
       width: 90%;
+      text-align:justify;
     }
 
     .product-and-services{
@@ -711,7 +707,7 @@ h3:nth-child(4){
     }
 
     .div-services1{
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-limpieza.jpg");
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-limpieza.jpg");
        background-size:cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -722,7 +718,7 @@ h3:nth-child(4){
      .div-services2{
       width:300px;
       height:490px;
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-of-restaurant.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-of-restaurant.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position:bottom center;
@@ -730,7 +726,7 @@ h3:nth-child(4){
     }
 
      .div-services3{
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-wifi.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-wifi.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position:right center;
@@ -738,7 +734,7 @@ h3:nth-child(4){
     }
 
      .div-services4{
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-lavanderia.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-lavanderia.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position:left center;
@@ -747,7 +743,7 @@ h3:nth-child(4){
     }
 
      .div-services5{
-      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Imgs/service-gym.jpg");
+      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imgs/service-gym.jpg");
         background-size:cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -953,6 +949,11 @@ footer .foot-inner {
   }
 
 
+  @media (max-width:850px){
+    .content-client{
+     grid-template-columns:170px 170px;
+  }
+  }
 
 @media (max-width: 920px) {
   .grid {
@@ -982,6 +983,8 @@ footer .foot-inner {
   .img2{
     width:140px;
   }
+
+  
 }
 @media (max-width: 520px) {
   .gallery img {
@@ -1009,15 +1012,10 @@ footer .foot-inner {
 @media (min-width:1290px){
     .content-client{
       width: 100%;
-      display:grid;
-      grid-template-columns:270px 270px;
-   }
+    }
+  }
 
-}
-
-
-
-@media (max-width: 700px){
+@media ( max-width: 700px){
   .hero-card{
     width:400px;
     font-size:12px;
@@ -1120,11 +1118,5 @@ footer .foot-inner {
      width:214px;
   height:51px;
   }
-
-   .content-client{
-      width: 100%;
-      display:grid;
-      grid-template-columns:270px 270px;
-   }
 
 }
